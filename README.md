@@ -26,6 +26,7 @@ https://www.kaggle.com/competitions/quora-question-pairs/data?select=train.csv.z
 <p align="justify">
 We first preprocess the text data by removing stop words and punctuations and converting the text to lowercase. We then tokenize the text data and create sequences of fixed length. For each word in the sequences, we use Word2Vec to obtain a vector representation, which captures its context within the text corpus.
 </p>
+
 ## Model
 <p align="justify">
 We explore two models, one based on Word2Vec and one based on LSTM, to predict whether two questions have the same meaning. The Word2Vec-based model concatenates the vector representations of the two questions in the pair and feeds them into a binary classifier, which outputs a probability of having the same meaning.
@@ -33,15 +34,19 @@ We explore two models, one based on Word2Vec and one based on LSTM, to predict w
 <p align="justify">
 The LSTM-based model uses a recurrent neural network architecture to model the sequence of words in the question pair. The input sequence is first embedded using an embedding layer, then multiple LSTM layers, and finally, a binary classification layer.
 </p>
+
 ## Evaluation
 <p align="justify">
 We evaluate the models using log loss, the evaluation metric used in the Kaggle competition. We train the models on the training set and tune the hyperparameters using cross-validation. Finally, we predict the labels for the test set and submit them to the Kaggle competition for evaluation.
 </p>
+
 ## Conclusion
 <p align="justify">
 In this project, we explored two NLP techniques, Word2Vec and LSTM, to predict whether two questions have the same meaning. We preprocessed the text data by removing stop words and punctuations and creating fixed-length sequences. We trained two models, one based on Word2Vec and one based on LSTM, to predict the labels. The models were evaluated using log loss, and the predictions were submitted to the Kaggle competition for evaluation.
 </p>
+
 <p align="justify">
 Our results suggest that the LSTM-based model outperforms the Word2Vec-based model, achieving a log loss of X on the test set. This indicates that modeling the sequence of words in the question pairs can capture important information about their meaning and is a promising direction for future research.
 </p>
+
 ## Example
