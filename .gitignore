@@ -1,1 +1,5 @@
 *.h5
+Model
+GoogleNews-vectors-negative300.bin
+train.csv
+LSTM_model
