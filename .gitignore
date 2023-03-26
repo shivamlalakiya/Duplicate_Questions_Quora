@@ -2,4 +2,7 @@
 Model
 GoogleNews-vectors-negative300.bin
 train.csv
+fixed_test.csv
 LSTM_model
+sample_submission.csv
+x.ipynb
