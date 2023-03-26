@@ -47,7 +47,7 @@ if q1 and q2 and button_check:
     pred /= 2
     pr = pred.ravel()[0]
 
-    if pr > 0.4:
+    if pr > 0.1:
         st.write('The questions are similar with the probability of ', pr)
     else:
         st.write('The questions are not similar (different) with the probability of ', pr)
