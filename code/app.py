@@ -46,11 +46,13 @@ if q1 and q2 and button_check:
     pred += model.predict([sample_2, sample_1], verbose = 1)
     pred /= 2
     pr = pred.ravel()[0]
+    similar_title = '<p style="font-family:sans-serif; color:Green; font-size: 42px;">The questions are similar</p>'
+    nonsimilar_title = '<p style="font-family:sans-serif; color:Red; font-size: 42px;">The questions are not similar (Differnet)</p>'
 
     if pr > 0.1:
-        st.write('The questions are similar with the probability of ', pr)
+        st.markdown(similar_title, unsafe_allow_html=True)
     else:
-        st.write('The questions are not similar (different) with the probability of ', pr)
+        st.markdown(nonsimilar_title, unsafe_allow_html=True)
 
 
 st.header('Model Architecture')
