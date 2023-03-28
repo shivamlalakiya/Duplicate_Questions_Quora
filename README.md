@@ -50,5 +50,9 @@ Our results suggest that the LSTM-based model outperforms the Word2Vec-based mod
 </p>
 
 ## Example
-![Image](/Duplicate_questions_Quora/example/simialr.png)
-![Image](/Duplicate_questions_Quora/example/non_similar.png)
+<p align="justify">
+Here are the example of webpage results/
+</p>
+
+<img src="/Users/shivamlalakiya/Desktop/Projects/Duplicate_questions_Quora/example/similar.png" align = 'center' height="60" width="60" >
+<img src="/Users/shivamlalakiya/Desktop/Projects/Duplicate_questions_Quora/example/non_similar.png" align = 'center' height="60" width="60" >
