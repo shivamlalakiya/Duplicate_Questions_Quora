@@ -50,5 +50,5 @@ Our results suggest that the LSTM-based model outperforms the Word2Vec-based mod
 </p>
 
 ## Example
-![Image]('./Duplicate_questions_Quora/example/simialr.png')
-![Image]('./Duplicate_questions_Quora/example/non_similar.png')
+![Image](/Duplicate_questions_Quora/example/simialr.png)
+![Image](/Duplicate_questions_Quora/example/non_similar.png)
